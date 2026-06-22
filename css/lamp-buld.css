@@ -70,7 +70,7 @@
     }
 
     .navbar{
-      width:90%;
+      width: min(1200px, 90%);
       margin:auto;
       padding:25px 0;
       display:flex;
@@ -181,7 +181,8 @@
 
     .hero{
       width:100%;
-      max-width:none;
+      max-width:1400px;
+      margin:0 auto;
       min-height:420px;
       display:flex;
       align-items:center;
@@ -208,7 +209,7 @@
     }
 
     .hero-text h1{
-      font-size:68px;
+      font-size:52px;
       line-height:1.15;
       margin:10px 0 16px;
       font-weight:700;
@@ -263,14 +264,14 @@
     /* ================= SECTION TITLE ================= */
 
     .section-title{
-      margin:80px 0 35px;
+      margin:60px 0 30px;
       display:flex;
       justify-content:space-between;
       align-items:center;
     }
 
     .section-title h2{
-      font-size:34px;
+      font-size:30px;
       font-weight:600;
     }
 
@@ -468,17 +469,11 @@
     @media(max-width:900px){
 
       .hero{
-        flex-direction:column;
-        text-align:center;
-        padding-top:40px;
+        min-height:350px;
       }
 
       .hero-text h1{
-        font-size:50px;
-      }
-
-      .hero-text p{
-        margin:auto auto 30px;
+        font-size:42px;
       }
 
       .navbar{
@@ -491,9 +486,21 @@
         justify-content:center;
       }
 
-      .circle{
-        width:320px;
-        height:320px;
+    }
+
+    @media(max-width:560px){
+
+      .hero-text h1{
+        font-size:32px;
+      }
+
+      .hero-text p{
+        font-size:14px;
+      }
+
+      .btn{
+        padding:12px 28px;
+        font-size:14px;
       }
 
     }
