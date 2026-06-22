@@ -88,7 +88,7 @@
     }
 
     .site-header .navbar{
-      width:90%;
+      width: min(1200px, 90%);
       margin:auto;
       padding:25px 0;
       display:flex;
@@ -209,6 +209,8 @@
 
     .hero{
       height:350px;
+      max-width:1400px;
+      margin:0 auto;
       background:
       linear-gradient(rgba(255,255,255,.75),rgba(255,255,255,.75)),
       url('https://i.pinimg.com/1200x/88/b3/74/88b37489e842c691487723a1135d3353.jpg') center/cover;
@@ -219,7 +221,7 @@
     }
 
     .hero h1{
-      font-size:60px;
+      font-size:46px;
       margin-bottom:10px;
     }
 
@@ -237,7 +239,7 @@
     }
 
     .section-title{
-      font-size:48px;
+      font-size:34px;
       margin-bottom:50px;
     }
 
@@ -284,7 +286,7 @@
     }
 
     .assist h2{
-      font-size:50px;
+      font-size:38px;
       margin-bottom:20px;
       line-height:1.2;
     }
