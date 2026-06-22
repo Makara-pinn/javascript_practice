@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Furniture UI</title>
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="css/lamp-buld.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="index.html">Maramall</a>
+
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">Collections <i class="fa-solid fa-caret-down"></i></button>
+          <ul class="dropdown-menu" aria-label="Collections menu">
+            <li><a href="lamp-buld.html" data-collection="Lamp">Lamp</a></li>
+            <li><a href="prepare-items.html" data-collection="Preparing Items">preparing items</a></li>
+            <li><a href="plants.html" data-collection="Plants">plants</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#" aria-label="Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a class="shop-now-btn" href="shop.html">Shop Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ================= HERO ================= -->
+
+  <section class="hero container">
+
+    <div class="hero-text">
+      <span>New Arrival</span>
+      <h1>Spring <br> Collection</h1>
+
+      <p>
+        Discover modern furniture designed with comfort,
+        elegance, and simplicity for your dream home.
+      </p>
+
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+
+    <div class="hero-image">
+
+      <div class="circle"></div>
+
+      <img src="https://i.pinimg.com/736x/44/43/29/444329ea872f0581b8db08f2fa72ff53.jpg" alt="Chair">
+
+    </div>
+
+  </section>
+
+  <!-- ================= CATEGORIES ================= -->
+
+  <section class="container">
+
+    <div class="section-title">
+      <h2>Shop by Categories</h2>
+      <a href="#">View All</a>
+    </div>
+
+    <div class="categories">
+
+      <div class="category-card">
+        <img src="https://i.pinimg.com/736x/51/58/59/51585944175d04f3c81e88e90eedaa84.jpg">
+        <h3>Flower Pots</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="https://i.pinimg.com/736x/d2/5d/d4/d25dd43de4b6fe50eec6035936f829d9.jpg">
+        <h3>Indoor Plants</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="https://i.pinimg.com/736x/ce/90/45/ce9045e6f037186f6f567434d0c7b74f.jpg">
+        <h3>Decor Planters</h3>
+      </div>
+     
+
+    </div>
+
+  </section>
+
+  <!-- ================= BANNER ================= -->
+
+  <!-- <section class="container banner">
+
+    <div class="banner-card">
+
+      <img src="https://i.pinimg.com/736x/42/59/ec/4259ec0272ea5bde25f7e13da2d14e1f.jpg">
+
+      <div class="banner-content">
+        <h2>Living Room</h2>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+    </div>
+
+    <div class="banner-card">
+
+      <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop">
+
+      <div class="banner-content">
+        <h2>Dining Room</h2>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+    </div>
+
+  </section> -->
+
+  <!-- ================= PRODUCTS ================= -->
+
+  <section class="container">
+
+    <div class="section-title">
+      <h2> Professional life with plants</h2>
+    </div>
+
+    <!-- <div class="shop-options" id="shop-options">
+      <button type="button" class="shop-option-btn" data-category="Table">All</button>
+      <button type="button" class="shop-option-btn" data-category="Table">Flowers</button>
+      <button type="button" class="shop-option-btn" data-category="Sofa">Plants</button>
+    </div> -->
+    <div class="products">
+
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/23/a6/09/23a6099c471ef156b237ea0d6c02f8d3.jpg">
+
+        <h3>dest Padded Seat</h3>
+
+        <p class="price">$100</p>
+
+      </div>
+
+      <div class="product-card">
+
+        <span class="product-tag">SALE</span>
+
+        <img src="https://i.pinimg.com/1200x/be/65/78/be65784804b5ee57791b82192d0b62d3.jpg">
+
+        <h3>Decorative Chair</h3>
+
+        <p class="price">$150</p>
+
+      </div>
+
+      <div class="product-card">
+
+        <span class="product-tag">NEW</span>
+
+        <img src="https://i.pinimg.com/1200x/b3/f2/21/b3f221cfb43cf7eba94c47860b27fd6a.jpg">
+
+        <h3>Modern Aqua Chair</h3>
+
+        <p class="price">$200</p>
+
+      </div>
+
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/24/26/3e/24263e74b9a00729c5993ae7d6989306.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$130</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/6a/76/e3/6a76e3194604f791f7c48ecf7b803487.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$210</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">Best sell</span>
+
+        <img src="https://i.pinimg.com/1200x/49/b1/b1/49b1b1a6a3bd9d9104edcc85949f8d50.jpg">
+
+        <h3>wall clock</h3>
+
+        <p class="price">$100</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">Best sell</span>
+
+        <img src="https://i.pinimg.com/1200x/2c/e6/60/2ce660078cef75aa574d600490e62164.jpg">
+
+        <h3>wall pictures</h3>
+
+        <p class="price">$120</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/1200x/ad/03/d3/ad03d33e16881b5d1f263a16ef174937.jpg">
+
+        <h3>Luxury wall </h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/1200x/5d/4a/48/5d4a48da7d776f49c1801e2f387c9dcd.jpg">
+
+        <h3>Luxury tic wall </h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/64/b2/90/64b290fa337376dc416f529616aae2b4.jpg">
+
+        <h3>Luxury fish wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/ca/79/82/ca7982014af1034d1cbd4d6c91cbb683.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/b0/3b/71/b03b71fb0758410fc853852a359df8d9.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/e5/f7/cb/e5f7cb232b08c5a9d14549bb1eba5393.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/91/c2/dc/91c2dc6f821657d59975f91ffe14bced.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/27/5a/f9/275af99c2939f9b19b2b792521301cf4.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/236x/b4/b2/46/b4b246edaa27917e73e98bf68c9a78cb.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/3d/f2/8f/3df28f4826c04008d120c4d5393fd0da.jpg">
+
+        <h3>Luxury clock</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/c5/d5/df/c5d5df4a3588961af60c775f644b7551.jpg">
+
+        <h3>Luxury clock</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/55/1b/92/551b92a9476cf4e956bef2600ad21b97.jpg">
+
+        <h3>Luxury clock</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/87/cf/f3/87cff30cdd041d4ce8a77467e722a97c.jpg">
+
+        <h3>Luxury clock</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/1200x/53/e5/ea/53e5ea88a4cf652f6fdb55a2cfb16cf6.jpg">
+
+        <h3>Luxury clock</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/1200x/67/17/46/671746f94e2a24fa3ec0115c0c4bd841.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/1200x/e3/fe/55/e3fe55129d663847dd6787cecb37b179.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/1b/cd/e5/1bcde57d298161070a7d4006b662885a.jpg">
+
+        <h3>Luxury chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/f3/24/8c/f3248c0bbd18239fcdcf04a8205cf455.jpg">
+        <h3>Luxury chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/29/a1/09/29a1099ed28b55876be2733f33dbdaf7.jpg">
+
+        <h3>Luxury chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/59/5e/e1/595ee175c77369cc0745524513ca3f2a.jpg">
+
+        <h3>Luxury chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/a5/e2/9a/a5e29aa6f0fa91c587b15f1308521c64.jpg">
+
+        <h3>Luxury chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/0a/77/87/0a7787e663535822126a1a60a338377d.jpg">
+
+        <h3>Luxury chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/1200x/f9/71/3d/f9713d478a8f8c28c3a3e5448f333e89.jpg">
+
+        <h3>Luxury chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/c7/c5/d8/c7c5d849c0702c90bd59cf8cb5e9d57c.jpg">
+
+        <h3>Luxury chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/08/ee/23/08ee2380a076e7faca5b92cdee87c0e8.jpg">
+
+        <h3>Luxury chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/1200x/47/67/a2/4767a2ec516e01ce23b92bb19c450b6c.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/1200x/86/6e/3d/866e3dcef8b31fa71b209eb95f51becc.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/15/f3/5c/15f35c42b671eea588e31b1c75d5be3d.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/65/c4/58/65c458df7df58839b284d870067d08ae.jpg">
+
+        <h3>Luxury wall</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+    <p>Â© 2026 DAVICI Furniture Store. All Rights Reserved.</p>
+  </footer>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script src="js/common.js"></script>
+  <script src="js/lamp-buld.js"></script>
+
+</body>
+</html>
+
+

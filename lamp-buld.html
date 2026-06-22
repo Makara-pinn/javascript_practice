@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Furniture UI</title>
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="css/lamp-buld.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="index.html">Maramall</a>
+
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">Collections <i class="fa-solid fa-caret-down"></i></button>
+          <ul class="dropdown-menu" aria-label="Collections menu">
+            <li><a href="lamp-buld.html" data-collection="Lamp">Lamp</a></li>
+            <li><a href="prepare-items.html" data-collection="Preparing Items">preparing items</a></li>
+            <li><a href="plants.html" data-collection="Plants">Plants</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#" aria-label="Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a class="shop-now-btn" href="shop.html">Shop Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ================= HERO ================= -->
+
+  <section class="hero container">
+
+    <div class="hero-text">
+      <span>New Arrival</span>
+      <h1>Spring <br> Collection</h1>
+
+      <p>
+        Discover modern furniture designed with comfort,
+        elegance, and simplicity for your dream home.
+      </p>
+
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+
+    <div class="hero-image">
+
+      <div class="circle"></div>
+
+      <img src="https://i.pinimg.com/736x/76/78/3d/76783d773d3357e5507d491ca3250ab5.jpg" alt="Chair">
+
+    </div>
+
+  </section>
+
+  <!-- ================= CATEGORIES ================= -->
+
+  <section class="container">
+
+    <div class="section-title">
+      <h2>Shop by Categories</h2>
+      <a href="#">View All</a>
+    </div>
+
+    <div class="categories">
+
+      <div class="category-card">
+        <img src="https://i.pinimg.com/736x/74/e6/92/74e69218f23090cb4a755b9f788431e5.jpg">
+        <h3>Pendant Lights</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="https://i.pinimg.com/1200x/08/79/58/087958484ef843baa57b86a835cdd1a3.jpg">
+        <h3>Desk Lamps</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="https://i.pinimg.com/736x/e7/75/33/e775331fccbba1ea1df85eb79a3fba60.jpg">
+        <h3>Floor Lamps</h3>
+      </div>
+     
+
+    </div>
+
+  </section>
+
+  <!-- ================= BANNER ================= -->
+
+  <!-- <section class="container banner">
+
+    <div class="banner-card">
+
+      <img src="https://i.pinimg.com/736x/42/59/ec/4259ec0272ea5bde25f7e13da2d14e1f.jpg">
+
+      <div class="banner-content">
+        <h2>Living Room</h2>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+    </div>
+
+    <div class="banner-card">
+
+      <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop">
+
+      <div class="banner-content">
+        <h2>Dining Room</h2>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+    </div>
+
+  </section> -->
+
+  <!-- ================= PRODUCTS ================= -->
+
+  <section class="container">
+
+    <div class="section-title">
+      <h2>Hot Products</h2>
+      <a href="#">All Products</a>
+    </div>
+
+    <div class="shop-options" id="shop-options">
+      <button type="button" class="shop-option-btn" data-category="Table">Pendant Light</button>
+      <button type="button" class="shop-option-btn" data-category="Sofa">Desk Lamp</button>
+      <button type="button" class="shop-option-btn" data-category="Chair">Floor Lamp</button>
+    </div>
+    <div class="products">
+
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/42/59/ec/4259ec0272ea5bde25f7e13da2d14e1f.jpg">
+
+        <h3>Chair Padded Seat</h3>
+
+        <p class="price">$100</p>
+
+      </div>
+
+      <div class="product-card">
+
+        <span class="product-tag">SALE</span>
+
+        <img src="https://i.pinimg.com/736x/3a/69/ed/3a69ed12e17d27d02fd09816046c4bc7.jpg">
+
+        <h3>Decorative Chair</h3>
+
+        <p class="price">$150</p>
+
+      </div>
+
+      <div class="product-card">
+
+        <span class="product-tag">NEW</span>
+
+        <img src="https://i.pinimg.com/736x/2e/92/b1/2e92b1ffac38a8f7ba8cfabf9061c427.jpg">
+
+        <h3>Modern Aqua Chair</h3>
+
+        <p class="price">$200</p>
+
+      </div>
+
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/bc/6b/9f/bc6b9f4aee741d27d0502044f32659e1.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$130</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/f6/0c/45/f60c45cf940b21f89076f09e310c3167.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$210</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">Best sell</span>
+
+        <img src="https://i.pinimg.com/736x/c0/96/57/c09657c3dedcf76cf50a86cd8c55a192.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$100</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">Best sell</span>
+
+        <img src="https://i.pinimg.com/736x/7e/1a/d0/7e1ad0353c27049d3bf15b801f607f6d.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$120</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/e4/95/54/e49554f2ec9e26f2fb2dee9657c93cc1.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/c1/96/fa/c196fa6e364e75d7f0edb5886de61fe1.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/37/e3/6f/37e36f14d92fe4b0fe469abc47389cb5.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/7b/39/ef/7b39ef2f9db8ca1941283a6d56299075.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+      <div class="product-card">
+
+        <span class="product-tag">HOT</span>
+
+        <img src="https://i.pinimg.com/736x/b8/d1/3a/b8d13afda275a0f39644b22c97997338.jpg">
+
+        <h3>Luxury Chair</h3>
+
+        <p class="price">$125</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+    <p>Â© 2026 DAVICI Furniture Store. All Rights Reserved.</p>
+  </footer>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script src="js/common.js"></script>
+  <script src="js/lamp-buld.js"></script>
+
+</body>
+</html>
+
+
