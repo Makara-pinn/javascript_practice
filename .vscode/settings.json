@@ -1,0 +1,10 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "${workspaceFolder}\\.tools\\PortableGit\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "liveServer.settings.port": 5502
+}

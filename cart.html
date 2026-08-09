@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart | Maramall</title>
+  <link rel="stylesheet" href="css/cart.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="index.html">Maramall</a>
+
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">Collections <i class="fa-solid fa-caret-down"></i></button>
+          <ul class="dropdown-menu" aria-label="Collections menu">
+            <li><a href="lamp-buld.html" data-collection="Lamp">Lamp</a></li>
+            <li><a href="prepare-items.html" data-collection="Preparing Items">Preparing Items</a></li>
+            <li><a href="plants.html" data-collection="Plants">Plants</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="cart.html" aria-label="Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a class="shop-now-btn" href="shop.html">Shop Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="cart-page">
+    <section class="cart-heading">
+      <div>
+        <span class="cart-eyebrow">Saved Selections</span>
+        <h1>Your Cart</h1>
+        <p id="cart-summary">0 items saved</p>
+      </div>
+
+      <a class="continue-link" href="shop.html">
+        <i class="fa-solid fa-arrow-left"></i>
+        Continue Shopping
+      </a>
+    </section>
+
+    <section class="cart-layout">
+      <div class="cart-items" id="cart-items"></div>
+
+      <aside class="cart-total">
+        <h2>Order Summary</h2>
+        <div class="summary-line">
+          <span>Items</span>
+          <strong id="summary-count">0</strong>
+        </div>
+        <div class="summary-line">
+          <span>Total</span>
+          <strong id="summary-total">$0</strong>
+        </div>
+        <p class="summary-note">Shipping and discount codes are calculated at checkout.</p>
+        <button type="button" id="checkout-btn">Checkout</button>
+      </aside>
+    </section>
+  </main>
+
+  <script src="js/common.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
