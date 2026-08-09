@@ -222,17 +222,20 @@
 
     .btn{
       display:inline-block;
-      padding:15px 35px;
-        background:#8b5e3c;
-      color:white;
-      border-radius:40px;
+      padding:12px 28px;
+      background:#111;
+      color:#fff;
+      border:none;
+      border-radius:30px;
+      cursor:pointer;
+      font-size:14px;
       font-weight:600;
-      transition:0.3s;
+      transition:.3s;
     }
 
     .btn:hover{
-      background:#69061382;
-      transform:translateY(-2px);
+      background:#fff;
+      color:#111;
     }
 
     .hero-image{
@@ -290,7 +293,7 @@
     .category-card{
       background:white;
       border-radius:20px;
-      padding:30px;
+      padding:24px;
       text-align:center;
       transition:0.3s;
       box-shadow:0 5px 15px rgba(0,0,0,0.04);
@@ -302,13 +305,13 @@
     }
 
     .category-card img{
-      height:180px;
+      height:160px;
       object-fit:contain;
     }
 
     .category-card h3{
-      margin-top:20px;
-      font-size:18px;
+      margin-top:16px;
+      font-size:16px;
     }
 
     /* ================= BANNER ================= */
@@ -367,7 +370,7 @@
     .product-card{
       background:white;
       border-radius:20px;
-      padding:25px;
+      padding:20px;
       position:relative;
       transition:0.3s;
       box-shadow:0 5px 15px rgba(0,0,0,0.04);
@@ -380,31 +383,31 @@
 
     .product-tag{
       position:absolute;
-      top:18px;
-      left:18px;
+      top:16px;
+      left:16px;
       background:orange;
       color:white;
-      padding:5px 12px;
+      padding:4px 10px;
       border-radius:30px;
-      font-size:12px;
+      font-size:11px;
       font-weight:500;
     }
 
     .product-card img{
-      height:220px;
+      height:200px;
       object-fit:contain;
-      margin-bottom:20px;
+      margin-bottom:16px;
     }
 
     .product-card h3{
-      font-size:18px;
-      margin-bottom:10px;
+      font-size:16px;
+      margin-bottom:8px;
       font-weight:500;
     }
 
     .price{
       color:#8b5e3c;
-      font-size:20px;
+      font-size:18px;
       font-weight:600;
     }
 
@@ -414,7 +417,7 @@
       gap:8px;
       margin:2px 0 10px;
       color:#777;
-      font-size:14px;
+      font-size:13px;
       line-height:1;
     }
 
@@ -422,7 +425,7 @@
       display:inline-flex;
       gap:2px;
       color:#ddd3c9;
-      font-size:15px;
+      font-size:14px;
     }
 
     .stars .filled{
@@ -443,7 +446,7 @@
       color:white;
       cursor:pointer;
       font-family:'Poppins', sans-serif;
-      font-size:15px;
+      font-size:14px;
       font-weight:600;
       transition:background 0.2s ease, transform 0.2s ease;
     }
